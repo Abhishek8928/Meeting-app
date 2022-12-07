@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.bg-img{
+    background: url(../../images/lines.svg) no-repeat center;
+}
+.hero-section{
+    font-family: 'Roboto', sans-serif;
+    padding: 40px 0px 40px  0px;
+    
+}
+.heading{
+    font-size: 78px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.title-desc{
+    color:white;
+    font-size: 24px;
+}
+.text-highlight{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.wrapper-container{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.first-container{
+    width:700px;
+}
+.second-container{
+    width:600px;
+}
+.high{
+    background-clip: text;
+  color: transparent;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+.btn-signup{
+    border:none;
+    padding:14px 24px;
+    background-color: blueviolet;
+    color:white;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.btn-add{
+    border:none;
+    padding:14px 24px;
+    background-color:#C850C0;
+    color:white;
+    border-radius: 8px;
+    font-size: 18px;
+    /* margin:0px 10px; */
+}
+
+
+@media (max-width:700px)
+{
+    .txt-md-center{
+        text-align: center;
+    }
+    .hero-section{
+        font-family: 'Roboto', sans-serif;
+        padding: 40px 0px 40px  0px;
+        
+    }
+    .heading{
+        font-size: 54px;
+        font-weight: bolder;
+        margin-bottom: 0px;
+    }
+    .title-desc{
+        color:white;
+        font-size: 20px;
+    }
+    .text-highlight{
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+    .wrapper-container{
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+        
+    }
+    .first-container{
+        padding:40px 0px;
+        width:600px;
+    }
+    .second-container{
+        width:400px;
+    }
+    .high{
+        background-clip: text;
+      color: transparent;
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+    }
+}

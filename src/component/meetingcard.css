@@ -1,0 +1,29 @@
+
+
+.card{
+    width:300px;
+    border-radius: 12px;
+    padding:20px;
+    margin:20px;
+    background-color: #18181d;
+}
+.txt-whi-col{
+    color: white;
+}
+.mt-0{
+    margin-top: 0px;
+}
+.mb-0{
+    margin-bottom: 0px;
+}
+.btn-join{
+    background-color: blueviolet;
+    padding:14px 24px;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius: 4px;
+}
+.meeting-desc{
+    padding:10px 0px;
+}
