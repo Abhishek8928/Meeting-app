@@ -1,0 +1,22 @@
+.brand-container{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.wrapper-con{
+    margin:60px 0px 60px 0px;
+}
+.card-container{
+    width:120px;
+    background-color: #19181c;
+    border-radius: 8px;
+}
+.brand-heading{
+    color:white;
+    font-size:26px;
+    text-align: center;
+    padding:40px 0px 40px 0px;
+}

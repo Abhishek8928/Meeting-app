@@ -2,10 +2,11 @@
 
 .bg-img{
     background: url(../../images/lines.svg) no-repeat center;
+    background-attachment: fixed;
 }
 .hero-section{
     font-family: 'Roboto', sans-serif;
-    padding: 40px 0px 40px  0px;
+    padding: 40px 0px 60px  0px;
     
 }
 .heading{
