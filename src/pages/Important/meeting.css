@@ -14,7 +14,7 @@ body{
     font-weight: bolder;
 }
 
-.text-highlight{
+.text-highlight-meet{
     background-clip: text;
     color: transparent;
     background-color: #4158D0;
@@ -28,11 +28,33 @@ body{
     flex-wrap: wrap;
 }
 
-.bg-img-meetings{
-    background: url(../../images/loader2.gif) no-repeat center;
-    background-size: 30%;
-    height:50vh;
-}
 .d-none{
     display:none;
+}
+
+
+@media (max-width:576px) {
+    
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+    }
+    .meeting-section{
+        padding: 60px 0px 40px  0px;
+    }
+    .txt-whi{
+        color:white;
+    }
+    .heading-meet{
+        text-align: center;
+        font-size: 34px;
+        font-weight: bolder;
+    }
+    .bg-img-meetings{
+        background: url(../../images/loader2.gif) no-repeat center;
+        background-size: 30%;
+        height:50vh;
+    }
 }

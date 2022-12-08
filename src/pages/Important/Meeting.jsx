@@ -15,26 +15,18 @@ export default function Meeting() {
         const meeting = {
           ...data[key]
         }
-        console.log(data[key])
+        
         meetings.push(meeting)
       }
       setMeetings(meetings)
     })
   }, [])
 
-
-
-
-
   return (
     <>
       <div>
-
-
-
-
         <div className="meeting-section">
-          <h1 className='txt-whi heading-meet text-highlight'>Meeting that are avaialable</h1>
+          <h1 className='heading-meet text-highlight-meet'>Meeting that are avaialable</h1>
 
           <div class={meetings.length == 0 ? "bg-img-meetings" : "container-meeting-show"}>
             {

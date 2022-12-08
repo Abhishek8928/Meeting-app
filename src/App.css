@@ -39,3 +39,23 @@ nav{
     width: 60px;
     padding:10px 0px;
 }
+
+@media (max-width:576px) {
+    .banner p{
+        margin:0px;
+        color:white;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .container{
+        margin:0px 2%;      
+    }
+    .nav-item{
+        font-size: 15px;
+    }
+    
+    .nav-logo{
+        width: 30px;
+        padding:10px 0px;
+    }
+}
