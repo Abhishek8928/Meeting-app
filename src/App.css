@@ -49,6 +49,9 @@ nav{
         font-size: 12px;
         font-weight: bold;
     }
+    .card-d-none{
+        display: none;
+    }
     .container{
         margin:0px 2%;      
     }

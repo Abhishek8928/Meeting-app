@@ -3,6 +3,8 @@ import './home.css'
 import heroimg from '../../images/assest-3.png'
 import { useNavigate } from 'react-router-dom'
 import Brand from '../../component/Brand'
+import Footer from '../../component/Footer'
+import Testominal from '../../component/Testominal'
 export default function Home() {
   let pageNavigator = useNavigate();
   return (
@@ -27,7 +29,8 @@ export default function Home() {
           </div>
           <div className="second-container">
             <img width='100%' src={heroimg} alt="" />
-          </div>
+              </div>
+            
         </div>
         </div>
       </div>
@@ -36,6 +39,8 @@ export default function Home() {
       </div>
       
       <Brand />
+      <Testominal />
+      <Footer />
       </>
   )
 }

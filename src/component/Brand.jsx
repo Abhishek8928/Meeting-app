@@ -31,7 +31,7 @@ import img29 from '../../src/company/asset29.png'
 export default function Brand() {
   return (
       <div className='wrapper-con'>
-          <h1 className='brand-heading'>TRUSTED BY THE BEST FRONTEND TEAMS</h1>
+          <h1 className='brand-heading'>TRUSTED  BY  THE  BEST  FRONTEND  TEAMS</h1>
           <div className="brand-container">
               <div className="card-container">
                   <img width='100%' src={img1} alt="" />
@@ -75,51 +75,51 @@ export default function Brand() {
                   <img width='100%' src={img14} alt="" />
                </div>
 
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img15} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img16} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img17} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img18} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img19} alt="" />
                </div>
 
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img20} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img21} alt="" />
               </div>
-              <div className="card-container">
+              <div className="card-container card-d-none">
                   <img width='100%' src={img22} alt="" />
               </div>
-              <div className="card-container">
+              <div className="card-container card-d-none">
                   <img width='100%' src={img23} alt="" />
               </div>
-              <div className="card-container">
+              <div className="card-container card-d-none">
                   <img width='100%' src={img24} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img25} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img26} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img27} alt="" />
                </div>
-               <div className="card-container">
+               <div className="card-container card-d-none">
                   <img width='100%' src={img28} alt="" />
               </div>
               
-              <div className="card-container">
+              <div className="card-container card-d-none">
                   <img width='100%' src={img29} alt="" />
                </div>
 

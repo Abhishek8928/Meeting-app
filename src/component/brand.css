@@ -1,22 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
 .brand-container{
     display:flex;
     justify-content: center;
-    /* align-items: center; */
     flex-wrap: wrap;
     gap:2rem;
 }
 
 .wrapper-con{
-    margin:60px 0px 60px 0px;
+    margin:0px 0px 80px 0px;
 }
 .card-container{
     width:120px;
     background-color: #19181c;
     border-radius: 8px;
 }
+.card-container:hover{
+    opacity:0.5;
+}
 .brand-heading{
     color:white;
-    font-size:26px;
+    font-size:46px;
     text-align: center;
     padding:40px 0px 40px 0px;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+@media (max-width:572px) {
+    .brand-heading{
+        color:#198655;
+        font-size:24px;
+        text-align: center;
+        padding:20px 0px 40px 0px;
+        font-family: 'Rubik Vinyl', cursive;
+    }   
+    .card-container{
+        width:80px;
+        background-color: #19181c;
+        border-radius: 8px;
+    }
 }
