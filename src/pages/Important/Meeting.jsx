@@ -27,8 +27,10 @@ export default function Meeting() {
       <div>
         <div className="meeting-section">
           <h1 className='heading-meet text-highlight-meet'>Meeting that are avaialable</h1>
+          <div className={meetings.length == 0 ? "bg-img-meetings" : "loader-d-none"}>
 
-          <div class={meetings.length == 0 ? "bg-img-meetings" : "container-meeting-show"}>
+          </div>
+          <div className="container-meeting-show">
             {
               meetings.map(x => {
                 return <Meetingcard title={x.title} desc={x.desc} img={x.img} />

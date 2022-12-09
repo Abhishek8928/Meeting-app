@@ -13,6 +13,14 @@ body{
     font-size: 65px;
     font-weight: bolder;
 }
+.bg-img-meetings{
+    background: url(../../images/loader2.gif) no-repeat center;
+    background-size: 30%;
+    height:30vh;
+}
+.loader-d-none{
+    display: none;
+}
 
 .text-highlight-meet{
     background-clip: text;
