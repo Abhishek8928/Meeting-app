@@ -31,9 +31,11 @@
 }
 .first-container{
     width:700px;
+    z-index:-1;
 }
 .second-container{
     width:600px;
+    z-index:-999;
 }
 .high{
     background-clip: text;
@@ -60,6 +62,9 @@
     border-radius: 8px;
     font-size: 18px;
     /* margin:0px 10px; */
+}
+.pos{
+    position: relative;
 }
 @media (max-width:992px){
     .txt-md-center{

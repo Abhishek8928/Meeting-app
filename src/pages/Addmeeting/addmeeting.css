@@ -59,7 +59,7 @@
     width: 100%;
     padding: 16px 10px;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 4px;
     border: none;
     font-size: 16px;
 }
@@ -77,7 +77,14 @@
     margin: 0px 0px 20px 0px;
 }
 
-
+.danger{
+    color:red;
+    font-size: 16px;
+    padding:0px 0px 0px 5px;
+}
+.msg-d-none{
+    display:none;
+}
 @media (max-width:576px) {
 
     .addmeeting-section {

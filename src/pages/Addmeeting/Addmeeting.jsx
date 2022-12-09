@@ -35,19 +35,25 @@ export default function Addmeeting() {
 
           <button className="btn-add-meet" onClick={() => {
             console.log("button is clicked");
-            let userMeetingDetails = {
-              title: inputTitle.current.value,
-              img: inputImg.current.value,
-              desc: inputDesc.current.value
+            if(inputTitle.current.value === '' && inputImg.current.value === '' && inputDesc.current.value === '')
+            {
+              alert("wrong input");
             }
-            // uploading the data to the firebase
-
-            fetch('https://meeting-app-9cd90-default-rtdb.firebaseio.com/meeting.json', {
-              method: 'post',
-              body: JSON.stringify(userMeetingDetails)
-            }).then(() => {
-              navigate('/');
-            })
+            else{
+              let userMeetingDetails = {
+                title: inputTitle.current.value,
+                img: inputImg.current.value,
+                desc: inputDesc.current.value
+              }
+              // uploading the data to the firebase
+  
+              fetch('https://meeting-app-9cd90-default-rtdb.firebaseio.com/meeting.json', {
+                method: 'post',
+                body: JSON.stringify(userMeetingDetails)
+              }).then(() => {
+                navigate('/Meeting');
+              })
+            }
 
           }}>Create New Meeting</button>
 

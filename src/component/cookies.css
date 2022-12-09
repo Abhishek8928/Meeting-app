@@ -1,0 +1,90 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+
+.cookies-container{
+    width:300px;
+    background-color: white;
+    padding:20px;
+    border-radius: 8px;
+    animation-name:dropdown;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    margin:20px;
+    position:fixed;
+    top:0;
+    right:0;
+}
+.c-pointer{
+    cursor: pointer;
+}
+.animation{
+    animation-duration: 1s;
+    animation-name:rotate;
+    animation-iteration-count: infinite;
+
+}
+.cookies-resize{
+    width:130px;
+}
+.cookies-d-none{
+    display: none;
+}
+
+.btn-accept{
+    background-color: rgb(44, 44, 254);
+    color:white;
+    border:none;
+    cursor: pointer;
+    padding:12px 24px;
+    border-radius: 4px;
+}
+.cook-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+}
+@keyframes rotate {
+    50%{
+        transform: rotate(6deg);
+    }
+    100%{
+        transform: rotate(-6deg);
+    }
+}
+
+@keyframes dropdown {
+    100%{
+        margin-top:72vh;
+    }
+}
+
+@media (max-width:992px)
+{
+    .cookies-container{
+        width:400px;
+        background-color: white;
+        padding:20px;
+        border-radius: 8px;
+        margin:20px 30px;
+    }
+    .cook-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:2rem;
+    }
+    @keyframes dropdown {
+        100%{
+            margin-top:80vh;
+        }
+    }
+    
+}
+
+@media (max-width:572px) {
+    .cookies-container{
+        display:none;
+    }
+}

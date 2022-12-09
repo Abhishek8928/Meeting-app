@@ -5,11 +5,16 @@ import { useNavigate } from 'react-router-dom'
 import Brand from '../../component/Brand'
 import Footer from '../../component/Footer'
 import Testominal from '../../component/Testominal'
+import Cookies from '../../component/Cookies'
 export default function Home() {
   let pageNavigator = useNavigate();
   return (
 <>
+<Cookies/>
+<div>
+</div>
     <div className='txt-md-center'>
+      <div className="pos">
     <div className="bg-img">
       <div className="hero-section">
         <div className="wrapper-container">
@@ -31,6 +36,7 @@ export default function Home() {
             <img width='100%' src={heroimg} alt="" />
               </div>
             
+        </div>
         </div>
         </div>
       </div>
