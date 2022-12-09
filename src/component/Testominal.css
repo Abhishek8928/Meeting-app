@@ -48,7 +48,37 @@
 }
 
 
+@media (max-width:1002px) {
+    
 
+.test-img{
+    border-radius: 50%;
+    width:70px;
+}
+.card-txt-whi{
+    color:white;
+}
+
+.test-card{
+    width:360px;
+    background-color:#19181c;
+    padding:40px 30px;
+    border-radius: 24px;
+    margin:20px 0px;
+}
+.d-flexible{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comments{
+    color:white;
+    font-size: 24px;
+}
+
+
+}
 
 @media (max-width:576px) {
     
