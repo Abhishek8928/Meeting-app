@@ -27,7 +27,7 @@ export default function Meeting() {
       <div>
         <div className="meeting-section">
           <h1 className='heading-meet text-highlight-meet'>Meeting that are avaialable</h1>
-          <div className={meetings.length == 0 ? "bg-img-meetings" : "loader-d-none"}>
+          <div className={meetings.length === 0 ? "bg-img-meetings" : "loader-d-none"}>
 
           </div>
           <div className="container-meeting-show">

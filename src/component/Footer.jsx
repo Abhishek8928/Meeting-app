@@ -45,7 +45,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <h1 className='footer-col mt-0'>Made by Abhishek Sharma </h1>
+        <h1 className='footer-col mt-0'>Made by Abhishek Sharma 😊</h1>
       </div>
 
       

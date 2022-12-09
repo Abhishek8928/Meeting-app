@@ -94,7 +94,7 @@ export default function Testominal() {
                     <img width = '60px'src={logo4} alt="" />
                     </div>
 
-                    <p className='comments'>I need to be able to develop and deploy operational scripts quickly and effectively. allows me to do just that, without the overhead of managing a box, and in a secure, consistent, and reliable fashion.</p>
+                    <p className='comments'> <mark>    I need to be able to develop and deploy operational scripts quickly and effectively. allows me to do just that, without the overhead of managing a box, and in a secure, consistent, and reliable fashion </mark>.</p>
                 </div>
 
 
