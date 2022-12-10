@@ -17,8 +17,7 @@ function App() {
       </div>
       <div className="container">
       <nav>
-
-          <img src={logo} className="nav-logo" />
+          <img src={logo}  className="nav-logo" />
           
         <ul className="nav-wrapper">
           <li><Link  className='nav-item' to='/'>Home</Link></li>
